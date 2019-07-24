@@ -3,11 +3,13 @@
 ## Sorting Algorithms
 
 * Heap Sort
+* Quick Sort
 
 ### Heap Sort
 
 * Complexity: O(n lg n)
-* Heap structure
+* Comparison sort
+* Use Heap structure
 * Operations:
  * PARENT(i)  - return i/2
  * LEFT(i)    - return 2i
@@ -21,7 +23,9 @@
 ### Quick Sort
 
 * Complexity: O(n^2) - Expected O(n lg n) - Efficient in average
+* Comparison sort
 * Divide-and-conquer paradigm
+* Based on partition algorithm to split origina arrays in two based on a pivot value (see also Hoare algorithm)
 
 ## References
 
